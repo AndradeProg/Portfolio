@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Roboto&display=swap');
 
+
 body{
     background-color: #f6f5f5;
     margin-right: 0px;
@@ -13,8 +14,8 @@ a{
 }
 section{
     width: 100%;
-    height: 95vh;
-    background-image: url(/img/back-foto-eu.png);
+    height: 98vh;
+    background-image: url("./img/backc-foto-eu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -25,7 +26,7 @@ nav{
     align-items: center;
     height: 60px;
     background-color: #ffffff;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 12px #4774B8;
     padding: 0px 5%;
 }
 nav ul{
@@ -50,25 +51,25 @@ nav ul a{
 .apresentaçao p:nth-child(1){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color: #505050;
+    color: #1A1323;
     font-size: 22px;
 }
 .apresentaçao p:nth-child(2){
     font-family: 'Handlee', cursive;
     font-weight: bold;
-    color: #505050;
+    color: #1A1323;
     letter-spacing: 1px;
     font-size: 60px;
 }
 .apresentaçao p:nth-child(3){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #505050;
+    color: #1A1323;
     font-size: 30px;
     line-height: 20px;
 }
 .apresentaçao p:nth-child(4){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #505050;
+    color: #1A1323;
     font-size: 30px;
     line-height: 20px;
 }
@@ -81,18 +82,27 @@ nav ul a{
     transition: (-13%, -42%);
 }
 .apresentaçao button{
-    width: 130px;
+    background-color: #4972B7;
+    color: black;
+    width: 160px;
     height: 42px;
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     outline: none;
     margin: 0px 10px;
-    border: 2px solid#000000;
+    border: 2px solid white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 button:active{
     transform: scale(1.1);
+}
+.apresentaçao button img{
+    width: 30px;
+    padding-right: 5px;
 }
 .eu-grande{
     height: 490px;
